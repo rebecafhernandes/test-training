@@ -1,9 +1,7 @@
 package br.com.tests.service;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Exercise2 {
@@ -31,7 +29,6 @@ public class Exercise2 {
             triedNumbers.add(it);
 
             sum = returnSumPowNumbers(it);
-            System.out.println("Somas: " + sum);
 
             if (triedNumbers.contains(sum)) {
                 alreadyTried = true;
